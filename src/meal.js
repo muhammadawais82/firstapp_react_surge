@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Food(props){
+function Meal(props){
     return (
     <div>
         <h1>I want to eat some {props.dishName}</h1>
     </div>
     );
 }
-export default meal;
+export default Meal;
