@@ -26,8 +26,9 @@ jobs:
        #   with:
        #     node-version: 12
       - name: Setup Node.js environment
-        run: actions/setup-node@v2-beta
-            node-version:12
+        run: actions/setup-node@v2.1.2
+        with:
+          node-version: 12
       # Runs a set of commands using the runners shell
       - name: Installing surge
         run: npm install -g surge
