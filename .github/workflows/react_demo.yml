@@ -24,6 +24,10 @@ jobs:
         uses: actions/setup-node@v2.1.2
         with:
           node-version: 12 
+          
+      - name: installing yarn
+        run: npm install -g yarn
+        
       - name: creating build
         run: yarn build
       # Runs a single command using the runners shell
